@@ -1,1 +1,6 @@
 - using only mel (128 values) -> 27% acc /250 epochs 32 batch size 
+- using 2 x Max pooling 16, 8-> 33% acc /250 epochs 32 batch size 
+- using opt = Adam (lr = 0.0001) -> 63% acc /250 epochs 32 batch size
+- using AveragePooling1D (ps = 8) ->
+- using activation tanh -> 
+- without genders ->
