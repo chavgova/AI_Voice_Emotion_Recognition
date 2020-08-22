@@ -2,5 +2,19 @@
 - using 2 x Max pooling 16, 8-> 33% acc /250 epochs 32 batch size 
 - using opt = Adam (lr = 0.0001) -> 63% acc /250 epochs 32 batch size; around 170 epoch - 63%; big overfit
 - using AveragePooling1D (ps = 8) -> NOPE
-- using activation tanh -> 52% max
+- using MaxPooling(5) + Adam -> 73% acc around 100-130 epoch; big overfit  ****
+- using activation tanh (last one - relu) -> 52% max
+- using all sigmoid activations -> NOPE
+- using all selu activations -> 65% acc
+- using MaxPooling(3) + MaxPooling(2) + selu -> 60% acc
+- using sulu + relu -> 63% (250 epochs); 
+- using gelu + relu -> 40% (70 epochs); all gelu -> 40% (90 epochs)
+- using relu + leaky relu -> max 65% acc
+- using opt = Adadelta -> not moving from 5%
+- using relu opt = Nadam -> ~70% acc (130 epochs); big overfit   ****
+- using opt = Adagrad -> NOPE
+- using opt = Adamax -> 67% acc; overfit ****
+- using different numbers of neurons; relu ->
+- NOT using MaxPooling; relu -> ~70%; overfit    ****
+- NOT using MaxPooling + different numbers of neurons + relu ->  67% acc; overfit 
 - without genders ->
