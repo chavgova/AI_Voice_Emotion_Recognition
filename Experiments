@@ -14,7 +14,10 @@
 - using relu opt = Nadam -> ~70% acc (130 epochs); big overfit   ****
 - using opt = Adagrad -> NOPE
 - using opt = Adamax -> 67% acc; overfit ****
-- using different numbers of neurons; relu ->
+- using different numbers of neurons (256,256,128..); relu; NO MaxPooling; 5,7,5,3,1,5; Adam -> 68% acc
 - NOT using MaxPooling; relu -> ~70%; overfit    ****
-- NOT using MaxPooling + different numbers of neurons + relu ->  67% acc; overfit 
+- NOT using MaxPooling + different numbers of neurons + relu; Adamax ->  67% acc; overfit 
+- NOT using MaxPooling + relu; Adam; 3,3,3,3,3, MaxP,3; -> 65% acc; big overfit
+- NOT using MaxPooling + relu; Adam; 3,3,3,3,3,3; -> 58% acc; big overfit
+- using MaxPooling(4) + relu; Adam; 7,7,7,7, MP,7,7; -> 68% acc; big overfit 
 - without genders ->
