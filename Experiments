@@ -20,4 +20,7 @@
 - NOT using MaxPooling + relu; Adam; 3,3,3,3,3, MaxP,3; -> 65% acc; big overfit
 - NOT using MaxPooling + relu; Adam; 3,3,3,3,3,3; -> 58% acc; big overfit
 - using MaxPooling(4) + relu; Adam; 7,7,7,7, MP,7,7; -> 68% acc; big overfit 
+- NEW dataset - TESSS (relu, Adam) - 89% acc     *****
 - without genders ->
+- NEW dataset - SAVEE (relu, Adam) - 87% acc
+- 2 CNN - 1 for each gender ->
