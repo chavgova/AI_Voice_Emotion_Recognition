@@ -24,3 +24,9 @@
 - without genders ->
 - NEW dataset - SAVEE (relu, Adam) - 87% acc
 - 2 CNN - 1 for each gender ->
+
+
+- tanh
+- filters- 225,128,128,64,64-d,64,32-d,8-d
+- kernel_regularizer=keras.regularizers.l2(0.001) -> less overfitting
+- kernel size - 20,15,10,5 -> loss: 0.4769 - accuracy: 0.9908 - val_loss: 0.8212 - val_accuracy: 0.8655
