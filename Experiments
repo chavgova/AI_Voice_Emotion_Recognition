@@ -30,3 +30,6 @@
 - filters- 225,128,128,64,64-d,64,32-d,8-d
 - kernel_regularizer=keras.regularizers.l2(0.001) -> less overfitting
 - kernel size - 20,15,10,5 -> loss: 0.4769 - accuracy: 0.9908 - val_loss: 0.8212 - val_accuracy: 0.8655
+- kernel_regularizer=regularizers.l1_l2(l1=1e-5, l2=1e-4) -> 89-90% acc
+- bias_regularizer=regularizers.l2(1e-4) -> loss: 0.2668 - accuracy: 0.9980 - val_loss: 0.6475 - val_accuracy: 0.8495
+- activity_regularizer=regularizers.l2(1e-5) -> loss: 0.3786 - accuracy: 0.9974 - val_loss: 0.7919 - val_accuracy: 0.8410
