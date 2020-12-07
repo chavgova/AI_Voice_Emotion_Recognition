@@ -35,5 +35,7 @@
 - activity_regularizer=regularizers.l2(1e-5) -> loss: 0.3786 - accuracy: 0.9974 - val_loss: 0.7919 - val_accuracy: 0.8410
 - kernel size - 1,2,3,4,5 -> loss: 0.2643 - accuracy: 0.9969 - val_loss: 0.6908 - val_accuracy: 0.8357
 - kernel size - 3,6,10,6,3 -> loss: 0.2890 - accuracy: 0.9964 - val_loss: 0.6524 - val_accuracy: 0.8491
-
-
+- kernel size - 6,6,6,6,6 -> loss: 0.2708 - accuracy: 0.9979 - val_loss: 0.6829 - val_accuracy: 0.8549
+- padding = valid -> loss: 0.3097 - accuracy: 0.9959 - val_loss: 0.7037 - val_accuracy: 0.8397
+- Adam(learning_rate=0.0001, amsgrad=True) -> loss: 0.2902 - accuracy: 0.9959 - val_loss: 0.7453 - val_accuracy: 0.8525
+- Nadam -> loss: 0.2617 - accuracy: 0.9995 - val_loss: 0.5780 - val_accuracy: 0.8753
