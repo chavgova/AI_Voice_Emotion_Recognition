@@ -33,3 +33,7 @@
 - kernel_regularizer=regularizers.l1_l2(l1=1e-5, l2=1e-4) -> 89-90% acc
 - bias_regularizer=regularizers.l2(1e-4) -> loss: 0.2668 - accuracy: 0.9980 - val_loss: 0.6475 - val_accuracy: 0.8495
 - activity_regularizer=regularizers.l2(1e-5) -> loss: 0.3786 - accuracy: 0.9974 - val_loss: 0.7919 - val_accuracy: 0.8410
+- kernel size - 1,2,3,4,5 -> loss: 0.2643 - accuracy: 0.9969 - val_loss: 0.6908 - val_accuracy: 0.8357
+- kernel size - 3,6,10,6,3 -> loss: 0.2890 - accuracy: 0.9964 - val_loss: 0.6524 - val_accuracy: 0.8491
+
+
