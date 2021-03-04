@@ -39,3 +39,10 @@
 - padding = valid -> loss: 0.3097 - accuracy: 0.9959 - val_loss: 0.7037 - val_accuracy: 0.8397
 - Adam(learning_rate=0.0001, amsgrad=True) -> loss: 0.2902 - accuracy: 0.9959 - val_loss: 0.7453 - val_accuracy: 0.8525
 - Nadam -> loss: 0.2617 - accuracy: 0.9995 - val_loss: 0.5780 - val_accuracy: 0.8753
+
+2D 
+- 8x20 = 160 values 
+- max pooling
+- avg pooling
+
+
