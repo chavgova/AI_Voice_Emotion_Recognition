@@ -6,6 +6,6 @@ We made various experiments and in our final model we extract 8 audio features (
 
 In general, emotion recognition has great potential applicability for AI’s future. It can be used for various human-machine interactions from customer experience and gaming to mental health care and security.
 
-#ACKNOWLEDGEMENTS: 
+# ACKNOWLEDGEMENTS: 
 I express my gratitude to my mentor - Zvezdin Besarabov - for the guidance. We would like to thank the High School Students' Institute of Mathematics and Informatics and Summer Rerearch School for the given opportunity for starting our research in 2020. We thank Zlatogor Minchev for being a consultant of the project and providing us with useful advises and materials.
 
